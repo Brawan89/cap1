@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.levelsWrapper {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8D99AE;
+}
+
+.levelsTitle {
+  font-size: 250%;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 3px 6px 3px #EDF2F4;
+}
+
+.levelsButtons {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.levelsButtons button {
+  height: 6rem;
+  width: 30rem;
+  border-radius: 1.75rem;
+  text-decoration: none;
+  border: none;
+  background-color: #EDF2F4;
+}
+
+.levelsButton {
+  font-size: 500%;
+  font-family: "Press Start 2P", cursive;
+  color: #2B2D42;
+  text-decoration: none;
+}
+
+.levelsButtons button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.levelsButton:visited {
+  color: #2B2D42;
+}
+
+@media screen and (max-width: 1300px) {
+  .levelsTitle {
+    font-size: 230%;
+  }
+
+  .levelsButtons button {
+    height: 5.5rem;
+    width: 27rem;
+  }
+
+  .levelsButton {
+    font-size: 450%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .levelsTitle {
+    font-size: 210%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .levelsTitle {
+    font-size: 170%;
+  }
+
+  .levelsButtons button {
+    height: 4.5rem;
+    width: 22rem;
+  }
+
+  .levelsButton {
+    font-size: 350%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .levelsTitle {
+    font-size: 140%;
+  }
+
+  .levelsButtons button {
+    height: 4rem;
+    width: 20rem;
+  }
+
+  .levelsButton {
+    font-size: 300%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .levelsTitle {
+    font-size: 90%;
+  }
+
+  .levelsButtons button {
+    height: 3rem;
+    width: 15rem;
+  }
+
+  .levelsButton {
+    font-size: 200%;
+  }
+}

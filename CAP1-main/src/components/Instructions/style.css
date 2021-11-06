@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.instructionsWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d99ae;
+}
+
+.instructions {
+  height: 80%;
+  width: 70%;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf2f4;
+  border-radius: 1rem;
+}
+
+.instructionsTitle {
+  font-size: 150%;
+  color: #2b2d42;
+  font-family: "Press Start 2P", cursive;
+}
+
+.instructionsDesc {
+  height: 70%;
+  font-size: 250%;
+  font-family: "Odibee Sans", cursive;
+  color: #2b2d42;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.instructionsButtons button {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 1.75rem;
+  text-decoration: none;
+  border: none;
+  background-color: #2b2d42;
+}
+
+.instructionsButton {
+  font-size: 180%;
+  font-family: "Press Start 2P", cursive;
+  color: #edf2f4;
+  text-decoration: none;
+}
+
+.instructionsButtons button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1300px) {
+  .instructionsTitle {
+    font-size: 130%;
+  }
+
+  .instructionsDesc {
+    font-size: 200%;
+  }
+
+  .instructionsButtons button {
+    height: 2.5rem;
+    width: 18rem;
+  }
+
+  .instructionsButton {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .instructions {
+    height: 80%;
+    width: 80%;
+  }
+
+  .instructionsTitle {
+    font-size: 120%;
+  }
+
+  .instructionsDesc {
+    font-size: 180%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .instructions {
+    height: 80%;
+    width: 85%;
+  }
+
+  .instructionsTitle {
+    font-size: 110%;
+  }
+
+  .instructionsDesc {
+    font-size: 160%;
+  }
+
+  .instructionsButtons button {
+    height: 2rem;
+    width: 16rem;
+  }
+
+  .instructionsButton {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .instructions {
+    height: 80%;
+    width: 85%;
+  }
+
+  .instructionsTitle {
+    font-size: 90%;
+  }
+
+  .instructionsDesc {
+    font-size: 130%;
+  }
+
+  .instructionsButtons button {
+    width: 14rem;
+  }
+}

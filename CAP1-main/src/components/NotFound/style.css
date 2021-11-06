@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.notFoundWrapper {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8D99AE;
+}
+
+.notFoundTitle {
+  font-size: 250%;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 3px 6px 3px #EDF2F4;
+}
+
+.notFoundTitle h1 {
+  margin-bottom: 2rem;
+}
+
+.notFoundButtons {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.notFoundButtons button {
+  height: 6rem;
+  width: 32rem;
+  border-radius: 1.75rem;
+  text-decoration: none;
+  border: none;
+  background-color: #2B2D42;
+}
+
+.notFoundButton {
+  font-size: 300%;
+  font-family: "Press Start 2P", cursive;
+  color: #EDF2F4;
+  text-decoration: none;
+}
+
+.notFoundButtons button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.notFoundButton:visited {
+  color: #EDF2F4;
+}
+
+@media screen and (max-width: 1300px) {
+  .notFoundTitle {
+    font-size: 230%;
+  }
+
+  .notFoundButtons button {
+    height: 5.5rem;
+    width: 27rem;
+  }
+
+  .notFoundButton {
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .notFoundTitle {
+    font-size: 210%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .notFoundTitle {
+    font-size: 170%;
+  }
+
+  .notFoundButtons button {
+    height: 4.5rem;
+    width: 22rem;
+  }
+
+  .notFoundButton {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .notFoundTitle {
+    font-size: 140%;
+  }
+
+  .notFoundButtons button {
+    height: 4rem;
+    width: 20rem;
+  }
+
+  .notFoundButton {
+    font-size: 180%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .notFoundTitle {
+    font-size: 90%;
+  }
+
+  .notFoundButtons button {
+    height: 3rem;
+    width: 15rem;
+  }
+
+  .notFoundButton {
+    font-size: 130%;
+  }
+}

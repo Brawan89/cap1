@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.gameWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8D99AE;
+}
+
+.timerCounter {
+  height: 6rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.timerTitle {
+  font-size: 65%;
+  padding: 0.5rem;
+  color: #EDF2F4;
+  font-family: "Press Start 2P", cursive;
+  background-color: #2B2D42;
+}
+
+.timerTime {
+  padding: 0.5rem;
+  border: 0.2rem solid #2B2D42;
+  font-size: 120%;
+  font-family: "Orbitron", sans-serif;
+  background-color: #EDF2F4;
+}
+
+.easyGrid {
+  height: 70%;
+  width: 50%;
+  border: 1rem solid #2B2D42;
+  border-radius: 1.75rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 1rem;
+  background-color: #EDF2F4;
+}
+
+.normalGrid {
+  height: 85%;
+  width: 60%;
+  border: 1rem solid #2B2D42;
+  border-radius: 1.75rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  background-color: #EDF2F4;
+}
+
+.hardGrid {
+  height: 90%;
+  width: 60%;
+  border: 1rem solid #2B2D42;
+  border-radius: 1.75rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+  background-color: #EDF2F4;
+}
+
+.turnsCounter {
+  height: 6rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.turnsTitle {
+  font-size: 65%;
+  padding: 0.5rem 0;
+  color: #EDF2F4;
+  font-family: "Press Start 2P", cursive;
+  background-color: #2B2D42;
+}
+
+.turnsCount {
+  padding: 0.5rem;
+  border: 0.2rem solid #2B2D42;
+  font-size: 120%;
+  font-family: "Orbitron", sans-serif;
+  background-color: #EDF2F4;
+}
+
+@media screen and (max-width: 900px) {
+  .easyGrid {
+    height: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .normalGrid {
+    height: 90%;
+    width: 55%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .hardGrid {
+    height: 95%;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}

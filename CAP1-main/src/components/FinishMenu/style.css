@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.finishMenuWrapper {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8d99ae;
+}
+
+.finishMenu {
+  height: 60%;
+  width: 60%;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #edf2f4;
+  border-radius: 1rem;
+}
+
+.finishMenuStatus {
+  font-size: 250%;
+  color: #ef233c;
+  font-family: "Press Start 2P", cursive;
+}
+
+.finishMenuScore {
+  display: flex;
+  font-size: 120%;
+  color: #2b2d42;
+  font-family: "Press Start 2P", cursive;
+}
+
+.finishMenuButtons {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.finishMenuButtons button {
+  height: 2.5rem;
+  width: 23rem;
+  border-radius: 1.75rem;
+  text-decoration: none;
+  border: none;
+  background-color: #2b2d42;
+}
+
+.finishMenuButton {
+  font-size: 150%;
+  font-family: "Press Start 2P", cursive;
+  color: #edf2f4;
+  text-decoration: none;
+}
+
+.finishMenuButtons button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.finishMenuButton:visited {
+  color: #edf2f4;
+}
+
+@media screen and (max-width: 1300px) {
+  .finishMenuStatus {
+    font-size: 180%;
+  }
+
+  .finishMenuScore {
+    font-size: 100%;
+  }
+
+  .finishMenuButtons button {
+    height: 2rem;
+    width: 19rem;
+  }
+
+  .finishMenuButton {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .finishMenuStatus {
+    font-size: 140%;
+  }
+
+  .finishMenuScore {
+    font-size: 90%;
+  }
+
+  .finishMenuButtons button {
+    height: 1.5rem;
+    width: 16rem;
+  }
+
+  .finishMenuButton {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .finishMenu {
+    width: 85%;
+  }
+
+  .finishMenuStatus {
+    font-size: 120%;
+  }
+
+  .finishMenuScore {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .finishMenu {
+    width: 100%;
+  }
+
+  .finishMenuStatus {
+    font-size: 70%;
+  }
+
+  .finishMenuScore {
+    font-size: 50%;
+  }
+
+  .finishMenuButtons button {
+    height: 1.2rem;
+    width: 13rem;
+  }
+
+  .finishMenuButton {
+    font-size: 90%;
+  }
+}

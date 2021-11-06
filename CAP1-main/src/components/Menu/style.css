@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.menuWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8D99AE;
+}
+
+.menuTitle {
+  font-family: "Odibee Sans", cursive;
+  text-shadow: 3px 6px 3px #EDF2F4;
+}
+
+.menuTitle h1 {
+  font-size: 1100%;
+  color: #D90429;
+}
+
+.menuTitle img {
+  height: 7rem;
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+.menuButtons {
+  height: 20rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuButtons button {
+  height: 5rem;
+  width: 28rem;
+  border-radius: 1.75rem;
+  text-decoration: none;
+  border: none;
+  background-color: #EDF2F4;
+}
+
+.menuButton {
+  font-size: 250%;
+  font-family: "Press Start 2P", cursive;
+  color: #2B2D42;
+  text-decoration: none;
+}
+
+.menuButtons button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.menuButton:visited {
+  color: #2B2D42;
+}
+
+.menuTitle:hover {
+  animation: bounce 0.3s ease infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-2rem);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menuTitle h1 {
+    font-size: 900%;
+  }
+  
+  .menuTitle img {
+    height: 5rem;
+    width: 12rem;
+  }
+
+  .menuButtons button {
+    height: 3.5rem;
+    width: 22rem;
+  }
+
+  .menuButton {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menuTitle h1 {
+    font-size: 700%;
+  }
+  
+  .menuTitle img {
+    height: 4rem;
+    width: 10rem;
+  }
+
+  .menuButtons button {
+    height: 2.5rem;
+    width: 20rem;
+  }
+
+  .menuButton {
+    font-size: 180%;
+  }
+}
